@@ -61,8 +61,8 @@ ul {
   text-decoration: none;
 }
 
-.header-menu-item link:hover,
-.header-menu-item link:focus {
+.header-menu-item:hover,
+.header-menu-item:focus {
   color: var(--pressed-state);
 }
 
@@ -77,8 +77,8 @@ ul {
   color: var(--text-color);
 }
 
-.header-contacts-link link:hover,
-.header-contacts-link link:focus {
+.header-contacts:hover,
+.header-contacts:focus {
   color: var(--pressed-state);
 }
 
