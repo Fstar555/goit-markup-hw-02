@@ -61,7 +61,11 @@ ul {
   text-decoration: none;
 }
 
-.header-menu-link:is(:hover, :focus) {
+.header-menu-item link {
+  color: var(--dark-color);
+}
+
+.header-menu-item link:is(:hover, :focus) {
   color: var(--pressed-state);
 }
 
@@ -74,6 +78,10 @@ ul {
 
 .header-contacts-link {
   color: var(--text-color);
+}
+
+.header-contacts-link link:is(:hover, :focus) {
+  color: var(--pressed-state);
 }
 
 /*----------------Hero-----------------*/
@@ -97,13 +105,13 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: var(--white--background-color);
+  color: var(--white-background-color);
   letter-spacing: 0.04em;
   cursor: pointer;
   background-color: var(--primary-brand-color);
 }
 
-.hero-btn:is(:hover, :focus, :active) {
+.hero-btn:is(:hover, :focus) {
   color: var(--pressed-state);
 }
 
@@ -144,12 +152,11 @@ ul {
 
 .team-title {
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
+  font-size: 56px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
-  color: var(--dark-color);
+  color: var(--white-background-color);
   text-align: center;
-  text-transform: capitalize;
 }
 
 .team-title-item {
