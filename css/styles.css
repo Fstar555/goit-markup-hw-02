@@ -52,7 +52,7 @@ ul {
   color: var(--text-color);
 }
 
-.header-menu-link {
+.header-menu-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -61,11 +61,8 @@ ul {
   text-decoration: none;
 }
 
-.header-menu-item link {
-  color: var(--dark-color);
-}
-
-.header-menu-item link:is(:hover, :focus) {
+.header-menu-item link:hover,
+.header-menu-item link:focus {
   color: var(--pressed-state);
 }
 
@@ -80,7 +77,8 @@ ul {
   color: var(--text-color);
 }
 
-.header-contacts-link link:is(:hover, :focus) {
+.header-contacts-link link:hover,
+.header-contacts-link link:focus {
   color: var(--pressed-state);
 }
 
@@ -111,7 +109,8 @@ ul {
   background-color: var(--primary-brand-color);
 }
 
-.hero-btn:is(:hover, :focus) {
+.hero-btn:hover,
+.hero-btn:focus {
   color: var(--pressed-state);
 }
 
@@ -152,11 +151,12 @@ ul {
 
 .team-title {
   font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
-  color: var(--white-background-color);
+  color: var(--dark-color);
   text-align: center;
+  text-transform: capitalize;
 }
 
 .team-title-item {
@@ -227,7 +227,8 @@ ul {
   background-color: var(--third-title-color);
 }
 
-.button:is(:hover, :focus, :active) {
+.button:hover,
+.button:focus {
   color: var(--white-background-color);
   background-color: var(--pressed-state);
 }
