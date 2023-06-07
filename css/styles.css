@@ -5,7 +5,7 @@
   --primary-brand-color: #4d5ae5;
   --white-background-color: #ffffff;
   --logo-style: "Raleway", sans-serif;
-  --pressed-state: #404bbf;
+  --pressed-background-state-color: #404bbf;
 }
 
 body {
@@ -63,7 +63,7 @@ ul {
 
 .header-menu-item:hover,
 .header-menu-item:focus {
-  color: var(--pressed-state);
+  color: var(--pressed-background-state-color);
 }
 
 .header-contacts-item {
@@ -79,7 +79,7 @@ ul {
 
 .header-contacts:hover,
 .header-contacts:focus {
-  color: var(--pressed-state);
+  color: var(--pressed-background-state-color);
 }
 
 /*----------------Hero-----------------*/
@@ -111,7 +111,7 @@ ul {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  color: var(--pressed-state);
+  color: var(--pressed-background-state-color);
 }
 
 /*----------------Business-----------------*/
@@ -230,7 +230,7 @@ ul {
 .button:hover,
 .button:focus {
   color: var(--white-background-color);
-  background-color: var(--pressed-state);
+  background-color: var(--pressed-background-state-color);
 }
 
 .portfolio-name {
