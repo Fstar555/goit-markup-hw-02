@@ -63,7 +63,7 @@ ul {
 
 .header-menu-item:hover,
 .header-menu-item:focus {
-  background-color: var(--pressed-background-state-color);
+  color: var(--pressed-background-state-color);
 }
 
 .header-contacts-item {
@@ -79,7 +79,7 @@ ul {
 
 .header-contacts:hover,
 .header-contacts:focus {
-  background-color: var(--pressed-background-state-color);
+  color: var(--pressed-background-state-color);
 }
 
 /*----------------Hero-----------------*/
@@ -111,7 +111,7 @@ ul {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: var(--pressed-background-state-color);
+  color: var(--pressed-background-state-color);
 }
 
 /*----------------Business-----------------*/
@@ -229,6 +229,7 @@ ul {
 
 .button:hover,
 .button:focus {
+  color: var(--white-background-color);
   background-color: var(--pressed-background-state-color);
 }
 
