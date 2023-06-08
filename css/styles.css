@@ -61,8 +61,8 @@ ul {
   text-decoration: none;
 }
 
-.header-menu-item:hover,
-.header-menu-item:focus {
+.header-menu-link:hover,
+.header-menu-link:focus {
   color: var(--pressed-background-state-color);
 }
 
