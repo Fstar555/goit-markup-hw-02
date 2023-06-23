@@ -7,6 +7,7 @@
   --logo-style: "Raleway", sans-serif;
   --pressed-background-state-color: #404bbf;
   --white-color: #ffffff;
+  --accent-background-color: #e7e9fc;
 }
 
 body {
@@ -109,6 +110,8 @@ img {
   letter-spacing: 0.02em;
   color: var(--dark-color);
   text-decoration: none;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-menu-link {
@@ -185,6 +188,7 @@ img {
   min-width: 169px;
   height: 56px;
   border: none;
+  border-radius: 4px;
 }
 
 .hero-btn:hover,
@@ -294,6 +298,7 @@ img {
 
 .team-title-item {
   background-color: var(--white-background-color);
+  border-radius: 0px 0px 4px 4px;
 }
 
 /*-----------------Employee---------------*/
@@ -370,6 +375,7 @@ img {
   color: var(--primary-brand-color);
   cursor: pointer;
   background-color: var(--third-title-color);
+  border: 1px solid var(--accent-background-color);
 }
 
 .button:hover,
